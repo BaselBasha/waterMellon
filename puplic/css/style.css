@@ -1,0 +1,150 @@
+body {
+    font-family: "montserrat";
+}
+@font-face {
+    font-family: lato;
+    src: url(/fonts/lato/Lato-Regular.ttf);
+}
+
+#title {
+    background-color: white;
+}
+h1 {
+    font-family: 'Montserrat black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Montserrat black', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Montserrat bold', sans-serif;
+    font-weight: 600;
+}
+h4 {
+    font-family: lato;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+    padding: 1rem 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 26px;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(215, 215, 215);
+}
+.logo span{
+    color: rgb(10, 133, 16);
+}
+
+.title {
+    margin-left: 8%;
+}
+
+.row button {
+    margin: 5% 3% 5% 0;
+}
+
+
+.scene {
+    display: inline-block;
+    width: 250px;
+    height: 320px;
+    margin: 40px 0;
+    perspective: 600px;
+    font-family: lato;
+    padding-left: 20px;
+}
+
+.card {
+    position: relative;
+    width: 120%;
+    height: 126%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+
+.card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.card__face--front {
+    background: white;
+    padding: 5% 5%;
+    
+}
+
+.card__face--back {
+    background: white;
+    transform: rotateY(180deg);
+    color: black;
+    padding: 20% 5%;
+    
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card .name{
+    padding-top: 13%;
+    font-family: lato;
+}
+.card p{
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 7%;
+}
+.col {
+    width: 250px;
+}
+
+.cc {
+    padding-top: 5%;
+}
+
+
+i.bi {
+    font-size: 1.7rem;
+    color: black;
+    padding-left: 2%;
+    transition: all 0.5s ease;
+}
+i.bi:hover {
+    color: rgb(12, 116, 186);
+    transition: all 0.5s ease;
+}

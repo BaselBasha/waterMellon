@@ -1,0 +1,19 @@
+@font-face {
+    font-family: raleWay;
+    src: url(/fonts/raleWay/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(/fonts/lato/Lato-Regular.ttf);
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    gap: 80px;
+    padding-top: 6%;
+    font-size: 1.5rem;
+}
+

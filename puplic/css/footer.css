@@ -1,0 +1,12 @@
+.theFooter{
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 700px) {
+    .theFooter {
+        margin-top: 8rem;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+}

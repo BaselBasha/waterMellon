@@ -1,0 +1,48 @@
+img {
+    width: 400px;
+    height: 400px;
+} 
+.container-fluid {
+    height: 100vh;
+    width: 100%;
+    padding: 7% 15%;
+    overflow: hidden;
+}
+.father {
+    background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(121, 91%, 87%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(121, 91%, 87%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(121, 91%, 87%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#BEFCBF", GradientType=1 );
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    padding: 3%;
+}
+
+h3 img {
+    height: 70px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 15% 5%; /* Adjust padding for smaller screens */
+    }
+    .container h1 {
+        padding-top: 20px
+    }
+
+    .container {
+        text-align: center; /* Center text within container */
+    }
+}
